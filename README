@@ -108,6 +108,9 @@ Runs at:
 ```bash
 cd Product-Management-Dashboard
 npm install
+or
+npm install --legacy-peer-deps
+
 npm run dev
 ```
 
