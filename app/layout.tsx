@@ -18,7 +18,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Product Management",
   description: "Modern product management dashboard",
-    generator: 'v0.app'
 }
 
 export default function RootLayout({

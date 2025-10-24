@@ -134,7 +134,7 @@ export default function ProductsPage() {
         message.error("Failed to delete product")
       }
     } catch (error: any) {
-      console.error("[v0] Delete error:", error.response?.data || error.message)
+      console.error("Delete error:", error.response?.data || error.message)
       message.error(error.response?.data?.error || "Failed to delete product")
     }
   }
